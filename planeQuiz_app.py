@@ -25,4 +25,4 @@ for n,pic in enumerate(picList) :
     else : 
         st.text(f'Your anwser {user_input} is not correct ! Try again. ')
 
-st.write(f'Congrulation! Your final score is {userScore} out of {totalScore} !')    
+st.header(f'Congratulation! Your final score is {userScore} out of {totalScore} !')    
